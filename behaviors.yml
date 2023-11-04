@@ -2,13 +2,13 @@ behaviors:
   SoccerTwos:
     trainer_type: poca
     hyperparameters:
-      batch_size: 2048
+      batch_size: 4096
       buffer_size: 20480
-      learning_rate: 0.0003
-      beta: 0.004
-      epsilon: 0.2
+      learning_rate: 0.001
+      beta: 0.9
+      epsilon: 0.001
       lambd: 0.95
-      num_epoch: 8
+      num_epoch: 15
       learning_rate_schedule: constant
     network_settings:
       normalize: false
